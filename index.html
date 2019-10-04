@@ -6,42 +6,48 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="stylesheet.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 </style>
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
-    <div class="w3-container">
+<nav class="w3-sidebar w3-collapse w3-white w3-padding-large" style="z-index:3;width:350px;" id="mySidebar"><br>
+    <div class="w3-container w3-center w3-margin-bottom">
         <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
             <i class="fa fa-remove"></i>
         </a>
-        <img src="profile_crop.jpg" style="width:100%;" class="w3-round"><br><br>
-        <h4><b>Bradley Nishida</b></h4>
+        <img src="profile_crop1.jpg" style="width:70%;" class="w3-circle w3-margin-top"><br><br>
+        <h2 style="line-height:1"><b>Bradley Nishida</b></h2>
         <p class="w3-text-grey">
-            Software Engineer<br>
-            UCLA '21
+            Software Engineer, UCLA '21
         </p>
     </div>
-    <div class="w3-bar-block"> 
-        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
-        <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a>
-        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+    <div>
+        <div class="w3-bar-block w3-margin-top w3-margin-bottom"> 
+            <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+            <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a>
+            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+            <a href="Bradley Nishida's Resume.pdf" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-file fa-fw w3-margin-right"></i>RESUME</a>
+        </div>
+        
+        <div class="w3-padding w3-xlarge">
+            <p class="w3-text-grey w3-small">GET IN TOUCH</p>
+            <i class="fa fa-github w3-hover-opacity" onclick="window.location.href='https://github.com/bnishida414'"></i>
+            <i class="fa fa-linkedin w3-hover-opacity" onclick="window.location.href='https://linkedin.com/in/bradleynishida/'"></i>
+            <i class="fa fa-facebook-official w3-hover-opacity" onclick="window.location.href='https://www.facebook.com/bradley.nishida'"></i>
+            <i class="fa fa-instagram w3-hover-opacity" onclick="window.location.href='https://www.instagram.com/bradleynishida/'"></i>
+        </div>
     </div>
-    <div class="w3-panel w3-large">
-        <i class="fa fa-github w3-hover-opacity" onclick="window.location.href='https://github.com/bnishida414'"></i>
-        <i class="fa fa-linkedin w3-hover-opacity" onclick="window.location.href='https://linkedin.com/in/bradleynishida/'"></i>
-        <i class="fa fa-facebook-official w3-hover-opacity" onclick="window.location.href='https://www.facebook.com/bradley.nishida'"></i>
-        <i class="fa fa-instagram w3-hover-opacity" onclick="window.location.href='https://www.instagram.com/bradleynishida/'"></i>
-    </div>
+    
 </nav>
 
 <!-- Overlay effect when opening sidebar on small screens -->
 <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 <!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:300px">
+<div class="w3-main" style="margin-left:350px">
 
     <!-- Header -->
     <!--
@@ -97,15 +103,15 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <div id="portfolio" class="w3-container w3-padding-large" style="margin-bottom:32px">
         <h1><b>Portfolio</b></h1>
         <p>
-            Here's some things I've built!
+            Here are some of the things I've built!
         </p>
         <hr>
         
     </div>
     
     <!-- Contact Section -->
-    <div class="w3-container w3-padding-large w3-grey">
-        <h4 id="contact"><b>Contact Me</b></h4>
+    <div id="contact" class="w3-container w3-padding-large w3-grey">
+        <h4><b>Contact Me</b></h4>
         
         <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
             
