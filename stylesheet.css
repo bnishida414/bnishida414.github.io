@@ -1,5 +1,9 @@
-.f {
-	padding: 70px 0;
-	text-align: center;
-	color: maroon;
+.main-welcome {
+    padding:96px 96px 48px;
+    height:750px;
+}
+
+.main-section {
+    padding:48px 96px;
+    height:750px;
 }
