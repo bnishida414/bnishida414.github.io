@@ -1,17 +1,37 @@
 .main-welcome {
-    padding:250px 96px 48px;
+    padding:250px 72px 0px;
     height:775px;
 }
 
 .main-section {
-    padding:96px;
-    height:775px;
+    padding:72px 256px;
+    min-height:775px;
 }
 
 .main-background {
     background: url('Files/obon1_light.jpg') no-repeat;
     background-size: 150%;
-    height: 775px;
+    height: 770px;
     background-position: 0, 0;
-    /*340 beach, 48 obon*/
+}
+
+.orange {
+    background-color: rgba(255, 179, 71, 0.7);
+}
+
+button.orange {
+    margin:4px 0px;
+}
+
+button.orange:hover{
+    background-color: rgba(255, 179, 71, 0.7)!important;
+    text-decoration: underline;
+}
+
+.w3-hover-text-grey:hover{
+    background-color: transparent!important;
+}
+
+p {
+    margin-bottom: 0px;
 }
