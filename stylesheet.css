@@ -1,22 +1,23 @@
 .main-welcome {
-    padding:250px 72px 0px;
+    padding:290px 72px 0px;
     height:775px;
 }
 
 .main-section {
-    padding:72px 256px;
+    padding:72px 20%;
     min-height:775px;
 }
 
 .main-background {
-    background: url('Files/obon1_light.jpg') no-repeat;
-    background-size: 150%;
+    background: url('Files/obon1_light2.jpg') no-repeat;
+    background-size: cover;
     height: 770px;
-    background-position: 0, 0;
+    min-height: 750px;
+    max-width: 100%;
 }
 
 .orange {
-    background-color: rgba(255, 179, 71, 0.7);
+    background-color: rgba(258, 198, 122, 1);
 }
 
 button.orange {
