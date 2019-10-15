@@ -16,6 +16,15 @@
     max-width: 100%;
 }
 
+.card-right {
+    margin-bottom:75px;
+    text-align:right;
+}
+
+.card-left {
+    margin-bottom:75px;
+}
+
 .orange {
     background-color: rgba(258, 198, 122, 1);
 }
@@ -33,6 +42,6 @@ button.orange:hover{
     background-color: transparent!important;
 }
 
-p {
-    margin-bottom: 0px;
+h1 {
+    margin-bottom: 35px;
 }

@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="stylesheet.css">
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif; margin:0}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif; }
 </style>
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
@@ -47,15 +47,15 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif; margin:0}
 
 <!-- !PAGE CONTENT! -->
 <!-- Background photo -->
-<div class="w3-main main-background" style="margin-left:350px">
+<div class="w3-main" style="margin-left:350px">
 
     <!-- Header -->
     <header id="welcome">
         <span class="w3-button w3-hide-large w3-xxlarge w3-margin w3-hover-text-grey" onclick="w3_open()" style="z-index: 1; position: absolute">
             <i class="fa fa-bars"></i>
         </span>
-        <div class="main-welcome">
-            <p class="w3-large" style="margin-left:4px">Hi, my name is</p>
+        <div class="main-welcome main-background">
+            <p class="w3-large" style="margin-left:4px; margin-bottom:0">Hi, my name is</p>
             <p class="w3-jumbo" style="margin:0; line-height: 1"><b>Bradley Nishida.</b></p>
             <p class="w3-large" style="margin-left:4px">
                 I'm a software engineer and upperclassman at the University of California, Los Angeles.
@@ -66,13 +66,13 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif; margin:0}
 
     <!-- About Me -->
     <div id="about" class="w3-container main-section">
-        <h2><b>About Me</b></h2>
+        <h1><b>About Me</b></h1>
         <p>
             I'm a software engineer based in Los Angeles, California. I'm currently studying Electrical
             Engineering with a technical breadth in Computer Science at the University of California, Los Angeles,
             with an expected graduation date of March 2021.
         </p>
-        <p>Outside of school, I enjoy playing basketball, volleyball, video games, and I'm also an Eagle Scout.
+        <p>Outside of school, I enjoy playing basketball, volleyball, video games, and I'm also an Eagle Scout!
         </p>
         <hr>
         
@@ -104,25 +104,90 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif; margin:0}
 
     <!-- Experience -->
     <div id="experience" class="w3-container main-section">
-        <h2><b>Experience</b></h2>
-        <p>
+        <h1><b>Experience</b></h1>
+        <!--p>
             Here are the places I've worked at!
-        </p>
-        
+        </p-->
+        <div class="card-left">
+            <h4>Software Engineer @ Coach & Crew</h4>
+            <p>July 2019 - Present</p>
+            <ul class="w3-ul">
+                <li>Self-taught full-stack development, HTML, and CSS for web applications</li>
+                <li>Organized the Coach page of the Coach and Crew website in a MEAN stack configuration</li>
+                <li>Wireframed Coach and Crew website through Figma</li>
+            </ul>
+        </div>
+        <div class="card-right">
+            <h4>Software Engineering Intern @ Cl!k Media</h4>
+            <p>June 2017 - Aug 2017</p>
+            <ul class="w3-ul">
+                <li>Developed digital marketing strategies</li>
+                <li>Self-taught full stack web development</li>
+            </ul>            
+        </div>
+        <div class="card-left">
+            <h4>Software Engineer @ Nostromo Emerging Technologies</h4>
+            <p>June 2016 - December 2016</p>
+            <ul class="w3-ul">
+                <li>Managed several key augmented reality projects
+                    <!--ul class="w3-ul">
+                        <li>ETA Advertising - port and ship models</li>
+                        <li>BMW - rotating car model in front of video advertisement</li>
+                        <li>NFL - running football player and stadium models</li>
+                    </ul-->
+                </li>
+                <li>Developed augmented reality applications for Android and iOS using Unity Engine and Vuforia</li>
+                <li>Utilized the 3D animation, camera, lighting, and physics aspects of Unity</li>
+                <li>Designed UI/UX for mobile applications</li>
+            </ul>            
+        </div>
+
     </div>
 
     <!-- Portfolio -->
     <div id="portfolio" class="w3-container main-section">
-        <h2><b>Portfolio</b></h2>
-        <p>
+        <h1><b>Portfolio</b></h1>
+        <!--p>
             Here are some of the things I've built!
-        </p>
+        </p-->
         
+        <div class="card-left">
+            <h4>Spider-Man Disintegration</h4>
+            <p>June 2019</p>
+            <ul class="w3-ul">
+                <li>Created a 3D model of Spider-Man in JavaScript</li>
+                <li>Implemented a dissolving particle effect on the model by performing matrix transformations on each cube, 
+                    such as translation, scaling, and rotation</li>
+            </ul>
+        </div>
+        <div class="card-right">
+            <h4>Path-Following Mobile Robot</h4>
+            <p>June 2018</p>
+            <ul class="w3-ul">
+                <li>Used an Arduino Nano to test and integrate several components (IR and visible light LEDs, phototransistors, gearmotors)</li>
+            </ul>            
+        </div>
+        <div class="card-left">
+            <h4>Health Tracker</h4>
+            <p>November 2017</p>
+            <ul class="w3-ul">
+                <li>Built a mobile application that tracked UCLA dining hall nutrition facts</li>
+                <li>Utilized Node.js and the React Native framework </li>
+            </ul>            
+        </div>
+        <div class="card-right">
+            <h4>Desert Emblem</h4>
+            <p>June 2016</p>
+            <ul class="w3-ul">
+                <li>Developed a strategy board game in Java based on Nintendo’s Fire Emblem series</li>
+                <li>Implemented two-player chess-like gameplay and working GIF animation</li>
+            </ul>            
+        </div>
     </div>
     
     <!-- Contact Section -->
     <div id="contact" class="w3-container main-section">
-        <h2><b>Contact Me</b></h2>
+        <h1><b>Contact Me</b></h1>
         
         <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
             
