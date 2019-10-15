@@ -1,22 +1,30 @@
 .main-welcome {
-    padding:250px 72px 0px;
+    padding:300px 72px 0px;
     height:775px;
 }
 
 .main-section {
-    padding:72px 256px;
+    padding:72px 20%;
     min-height:775px;
 }
 
 .main-background {
-    background: url('Files/obon1_light.jpg') no-repeat;
-    background-size: 150%;
-    height: 770px;
-    background-position: 0, 0;
+    background: url('Files/obon1_light2.jpg') no-repeat;
+    background-size: cover;
+    min-height: 750px;
+}
+
+.card-right {
+    margin-bottom:75px;
+    text-align:right;
+}
+
+.card-left {
+    margin-bottom:75px;
 }
 
 .orange {
-    background-color: rgba(255, 179, 71, 0.7);
+    background-color: rgba(258, 198, 122, 1);
 }
 
 button.orange {
@@ -24,14 +32,25 @@ button.orange {
 }
 
 button.orange:hover{
-    background-color: rgba(255, 179, 71, 0.7)!important;
-    text-decoration: underline;
+    background-color: rgba(255, 179, 71, 1)!important;
 }
 
 .w3-hover-text-grey:hover{
     background-color: transparent!important;
 }
 
-p {
-    margin-bottom: 0px;
+.w3-button:hover{
+    text-decoration: none;
+}
+
+h1 {
+    margin-bottom: 35px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover{
+    color:#757575;
 }
