@@ -1,17 +1,17 @@
 .main-welcome {
     padding:300px 10% 0px;
-    height:775px;
+    height:815px;
 }
 
 .main-section {
-    padding:72px 18%;
-    min-height:775px;
+    padding:80px 18%;
+    min-height:800px
 }
+
 
 .main-background {
     background: url('Files/obon1_light2.jpg') no-repeat;
     background-size: cover;
-    min-height: 750px;
 }
 
 .card-right {
@@ -28,7 +28,7 @@
 }
 
 .text-orange{
-    color: #ffb347;
+    color: #ff9500;
 }
 
 button.orange {
@@ -46,9 +46,22 @@ button.orange:hover{
 .w3-button:hover{
     text-decoration: none;
 }
+.w3-ul.orange{
+    display:inline-block
+}
+
+.w3-ul.orange li{
+    border-bottom:1px solid #666666
+}
+
+.w3-ul li:last-child{border-bottom:none}
 
 h1 {
     margin-bottom: 35px;
+}
+
+h4{
+    font-weight:bold;
 }
 
 a:link {
