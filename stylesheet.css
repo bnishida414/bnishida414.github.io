@@ -4,7 +4,7 @@
 }
 
 .main-section {
-    padding:80px 10%;
+    padding:80px 15%;
     min-height:800px
 }
 
@@ -23,8 +23,8 @@
     margin-bottom:85px;
 }
 
-.card-header{
-    padding:0px 32px;
+.text-indent{
+    padding:0px 16px;
 }
 
 .orange {
@@ -61,17 +61,17 @@ button.orange:hover{
 }
 
 .w3-ul.orange li{
-    border-bottom:1px solid #77777748;
+    border-bottom:1px solid #66666650;
 }
 
 .w3-ul li:last-child{border-bottom:none}
 
 h1 {
-    margin-bottom: 35px;
+    margin-bottom: 24px;
 }
 
-h4{
-    font-weight:bold;
+hr{
+    border-top:1px solid  #66666650;
 }
 
 a:link {
