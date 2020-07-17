@@ -4,7 +4,7 @@
 }
 
 .main-section {
-    padding:80px 18%;
+    padding:80px 15%;
     min-height:800px
 }
 
@@ -21,6 +21,10 @@
 
 .card-left {
     margin-bottom:85px;
+}
+
+.card-header{
+    padding:0px 40px;
 }
 
 .orange {
@@ -47,7 +51,8 @@ button.orange:hover{
     text-decoration: none;
 }
 .w3-ul.orange{
-    display:inline-block
+    display:inline-block;
+    width:100%
 }
 
 .w3-ul.orange li{
